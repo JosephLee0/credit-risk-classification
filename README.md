@@ -10,7 +10,7 @@ One of the method used is LogisticalRegression which was imported from SKlearn, 
 
 ## Results
 
-. Machine Learning Model 1:
+- Machine Learning Model 1:
 
 Balanced Accuracy Score: 0.95
 
@@ -22,17 +22,16 @@ Classification report precision recall f1-score support
 
                   precision    recall  f1-score   support
 
-healthy loan 1.00 0.99 1.00 18765
-high-risk loan 0.85 0.91 0.88 619
+    healthy loan    1.00        0.99     1.00      18765
+    high-risk loan  0.85        0.91     0.88       619
 
       accuracy                           0.99     19384
      macro avg       0.92      0.95      0.94     19384
-
-weighted avg 0.99 0.99 0.99 19384
+     weighted avg    0.99      0.99      0.99     19384
 
 The balanced accuracy score of the first model is approximately 95%. This model is better at predicting low-risk loans than it is for high-risk. As the recall for healthy loans is 0.99, whereas the recall for high risk loans is 0.91. In the confusion matrix we see there were 56 false positives, and 102 false negatives.
 
-. Machine Learning Model 2:
+- Machine Learning Model 2:
 
 Balanced Accuracy Score: 0.99
 
@@ -42,15 +41,14 @@ Confusion Matrix of Resampled Data:
 
 Classification report precision recall f1-score support
 
-                precision    recall  f1-score   support
+                  precision    recall  f1-score   support
 
-healthy loan 1.00 0.99 1.00 18765
-high-risk loan 0.84 0.99 0.91 619
+    healthy loan    1.00        0.99     1.00      18765
+    high-risk loan  0.84        0.99     0.91       619
 
       accuracy                           0.99     19384
      macro avg       0.92      0.99      0.95     19384
-
-weighted avg 0.99 0.99 0.99 19384
+     weighted avg    0.99      0.99      0.99     19384
 
 The balanced accuracy score of this second model is approximately 99%. This is also true for the recall, which is 0.99 for both low and high-risk loans. This model predicts high-risk loans much better than the first. In the confusion matrix there were 4 false positives and 116 false negatives.
 
