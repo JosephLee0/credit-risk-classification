@@ -36,8 +36,7 @@ The balanced accuracy score of the first model is approximately 95%. This model 
 Balanced Accuracy Score: 0.99
 
 Confusion Matrix of Resampled Data:
-
-[[18649 116] [ 4 615]]
+[[18649, 116], [ 4 ,615]]
 
 Classification report precision recall f1-score support
 
